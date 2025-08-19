@@ -15,7 +15,7 @@ with st.sidebar:
     up_age = st.file_uploader("linkedin_age.csv (age_group, users_million, period)", type=["csv"], key="age")
     up_monthly = st.file_uploader("linkedin_monthly.csv (date, users_million)", type=["csv"], key="mon")
     st.markdown("---")
-    st.markdown("**Template Kolom:**")
+    st.markdown("**Kolom:**")
     st.code("students.csv: region, level, year, students\nlinkedin_age.csv: age_group, users_million, period\nlinkedin_monthly.csv: date, users_million")
 
 # Load data (fallback to bundled samples)
